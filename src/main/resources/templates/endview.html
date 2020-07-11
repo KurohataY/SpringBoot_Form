@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>お問い合わせ完了</title>
+</head>
+<body>
+	<h1>お問い合わせ完了しました！</h1>
+	<!--問合せ内容確認-->
+	<h3>以下、問合せ内容</h3>
+	<h4>お名前</h4>
+	<p th:utext="${name}"></p>
+	<h4>メールアドレス</h4>
+	<p th:utext="${mail}"></p>
+	<h4>メッセージ</h4>
+	<p th:utext="${message}"></p>
+</body>
+</html>
